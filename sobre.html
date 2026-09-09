@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
+    <style>
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 20px 80px;
+        }
+
+        .titulo-caixa {
+            display: inline-block;
+            background: #086788;
+            color: #fff;
+            padding: 10px 24px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .sobre-formacao {
+            background: #fff;
+            border-radius: 10px;
+            padding: 28px 32px;
+            max-width: 600px;
+            margin: 30px auto;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        .sobre-formacao h3 {
+            margin-bottom: 20px;
+        }
+
+        .sobre-formacao ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sobre-formacao li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 14px;
+            line-height: 1.5;
+        }
+
+        .sobre-formacao li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #086788;
+            font-weight: bold;
+        }
+
+        .sobre-historia p,
+        .sobre-objetivo p {
+            text-align: center;
+        }
+
+        .Currículo {
+            display: inline-block;
+            background: #086788;
+            color: #fff;
+            padding: 10px 18px;
+            font-size: 18px;
+            border-radius: 6px;
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Projeto.html">Projeto</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre-intro">
+            <h5>UM POUCO SOBRE MIM</h5>
+            <h1 style="color: #086788;">Quem sou eu?</h1>
+            <img src="perfil.jpeg" alt="Foto de perfil" id="profile">
+        </section>
+
+        <section class="sobre-historia">
+            <p>
+                Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e sempre
+                em busca de aprender novas ferramentas e desenvolver minhas habilidades. Tenho interesse em
+                áreas como desenvolvimento de software, infraestrutura e suporte de TI, e estou em constante
+                evolução por meio de estudos.
+
+                Busco minha primeira oportunidade na área de tecnologia, onde possa aplicar meus
+                conhecimentos, adquirir experiência e contribuir com dedicação, responsabilidade e vontade
+                de aprender. Acredito que a evolução profissional acontece com curiosidade, comprometimento
+                e aprendizado contínuo, e estou preparado para enfrentar novos desafios e crescer junto com
+                a equipe.
+            </p>
+        </section>
+
+        <section class="sobre-formacao">
+            <h3 class="titulo-caixa">Formação Acadêmica</h3>
+            <ul>
+                <li>Tecnólogo em Análise e Desenvolvimento de Sistemas | Centro Universitário Padre Anchieta
+                    (Cursando, Previsão De Conclusão: 2028)</li>
+                <li>Técnico em Recursos Humanos | ITB/FIEB (Conclusão: 2025)</li>
+                <li>Diversos Cursos Extracurriculares Em TI, lógica de programação e desenvolvimento web
+                    (Senai, Fundação Bradesco, FGV)</li>
+            </ul>
+        </section>
+
+        <h3 class="titulo-caixa">Habilidades Técnicas</h3>
+        <section class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="devicon-html5-plain"></i></div>
+                <h4>HTML</h4>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="devicon-css3-plain"></i></div>
+                <h4>CSS</h4>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="devicon-git-plain"></i></div>
+                <h4>Git e GitHub</h4>
+            </div>
+        </section>
+
+        <section class="sobre-objetivo">
+            <h3 class="titulo-caixa">Objetivo</h3>
+            <p>
+                Busco uma oportunidade na área de tecnologia, como estagiário ou profissional júnior, onde possa aplicar meus conhecimentos, adquirir experiência e continuar evoluindo como desenvolvedor.
+            </p>
+            <section class="Currículo">
+                <h3>Currículo Para Download</h3>
+                <a href="Currículo - Gabriel Maia.pdf" download="Gabriel-Campos-Curriculo.pdf">Baixar currículo</a>
+            </section>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; Gabriel. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

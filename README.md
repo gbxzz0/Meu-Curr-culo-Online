@@ -18,14 +18,14 @@ CSS3
 Deploy na Vercel
 📁 Estrutura do projeto
 Meu-Currículo-Online/
-├── index.html
-├── sobre.html
-├── Projeto.html
-├── contato.html
-├── estilos.css
-├── imagem.jpeg.jpeg
-├── estrutura.txt
-└── Gabriel Ademar Maia Campos.pdf
+index.html
+sobre.html
+Projeto.html
+contato.html
+estilos.css
+imagem.jpeg.jpeg
+estrutura.txt
+Gabriel Ademar Maia Campos.pdf
 
 📬 Contato
 GitHub: @gbxzz0
